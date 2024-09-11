@@ -1,0 +1,3 @@
+# Data contract
+
+::: contrato.Vendas
