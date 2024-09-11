@@ -2,13 +2,15 @@ site_name: My Docs
 
 theme:
   name: "material"
-  palette: 
-    # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
+  palette:
+    # Definir o tema escuro
     - scheme: slate
+      primary: indigo
+      accent: indigo
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+      media: "(prefers-color-scheme: dark)"
 
 plugins:
   - search
